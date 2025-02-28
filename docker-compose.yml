@@ -14,6 +14,7 @@ services:
       - "3000:3000"
       - "2223:2223"
 
+
   managedhost-app-2:
     build: 
       context: managed-host/alpine/app2
